@@ -1,0 +1,80 @@
+.divPrincipal {
+    margin: 20px;
+}
+
+.headerSeccion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    margin-top: 10px;
+}
+
+button {
+   background-color:  #3F51B5;
+}
+
+.buttonsHeader {
+
+}
+
+.contentPrincipal {
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rutaContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.sectionRutas {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.infoRutas {
+    margin-top: 10px;
+}
+
+.labelExcep {
+    margin-left: 55px;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(20, 173, 20);
+}
+
+label {
+    color: #000;
+}
+
+button {
+    margin: 15px;
+}
+
+h2 {
+    display: inline;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 27px;
+    color: #000;
+}
+
+b {
+ 
+}

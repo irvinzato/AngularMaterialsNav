@@ -1,0 +1,122 @@
+.divPrincipal {
+    margin: 20px;
+}
+
+.headerSeccion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    margin-top: 10px;
+}
+
+h2 {
+    display: inline;
+    color: #000;
+}
+
+button {
+   background-color:  #3F51B5;
+   margin: 15px;
+}
+
+.contentPrincipal {
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000; /*Quiza no va aqui*/
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.ruta {
+    margin-top: -15px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.progreso {
+    text-align: end;
+}
+
+.labelRuta {
+    display: block;
+    margin-top: -25px;
+}
+
+.labelProgreso {
+    display:inline;
+    color: rgb(112, 112, 112);
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+.contentDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.barraRutas {
+    background: rgb(212, 212, 212);
+    border-radius: 20px;
+}
+
+.butonBarra {
+    border: none;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    background: #7CB342;;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    width: 110px;
+    height: 40px;
+    /* position: absolute;
+    top: 144px;
+    padding: 16px; */
+}
+
+.nombreRutas {
+
+}
+
+.labelBarra {
+    font-size: 15px;
+    display: inline-block;
+    width: 108px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mat-card {
+    display: flex;
+    background: rgb(255, 255, 255);
+    color: #000;
+}
