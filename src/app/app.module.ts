@@ -10,13 +10,20 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactosComponent } from './contactos/contactos.component'; 
 import { MatIconModule } from '@angular/material/icon'; 
 import { MatButtonModule } from '@angular/material/button'; 
-import { MatCardModule } from '@angular/material/card'; 
+import { MatCardModule } from '@angular/material/card';
+import { HorariosComponent } from './horarios/horarios.component'; 
+import { MatDialogModule } from '@angular/material/dialog';
+import { CrearExcepcionDialogComponent } from './nosotros/crear-excepcion-dialog/crear-excepcion-dialog.component';
+import { ExcepcionesFuturasDialogComponent } from './nosotros/excepciones-futuras-dialog/excepciones-futuras-dialog.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     NosotrosComponent,
-    ContactosComponent
+    ContactosComponent,
+    HorariosComponent,
+    CrearExcepcionDialogComponent,
+    ExcepcionesFuturasDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +33,8 @@ import { MatCardModule } from '@angular/material/card';
     MatSidenavModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,7 +4,7 @@
             <h2>Configuracion de rutas</h2>
         </div>
         <div class="buttonsHeader">
-            <button mat-raised-button><mat-icon>update</mat-icon> Crear excepcion</button>
+            <button mat-raised-button (click)="openDialog()"><mat-icon>update</mat-icon> Crear excepcion</button>
             <button mat-raised-button><mat-icon>filter_alt</mat-icon>Filtrar</button>
         </div>
     </div>
@@ -22,7 +22,7 @@
                     <label class="labelExcep">Sin excepciones futuras</label>
                 </div>
                 <div class="buttonsRutas">
-                    <button  mat-raised-button ><mat-icon>update</mat-icon> </button>
+                    <button  mat-raised-button (click)="openDialogExcepcionesFuturas()" ><mat-icon>update</mat-icon> </button>
                     <button  mat-raised-button ><mat-icon>pending_actions</mat-icon> Editar horarios</button>
                 </div>
             </div>

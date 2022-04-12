@@ -1,0 +1,122 @@
+.divPrincipal {
+    margin: 20px;
+}
+
+.headerSeccion {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.titulo {
+    margin-top: 10px;
+}
+
+h2 {
+    display: inline;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(137, 137, 137);
+}
+
+button {
+   background-color:  #3F51B5;
+   color: rgb(255, 255, 255);
+   padding: 6px 15px;
+   margin: 15px;
+}
+
+.divContent {
+    background: rgb(255, 255, 255);
+    /*height: 800px;*/
+    display: flex;
+    margin: 15px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+.columnas {
+    width: 16.6%;
+    border-right: 1px solid rgb(207, 207, 207);
+}
+
+.columaHeader {
+    display: flex;
+    align-items: baseline;
+    height: 70px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.textHeader {
+    margin: auto;
+    color: #3F51B5;
+    font-size: 26px;
+    font-weight: 420;
+}
+
+.horarioRuta {
+    height: 100px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+    border-bottom: 0.1px solid rgb(227, 227, 227);
+}
+
+.tituloHorario {
+    font-weight: 400;
+}
+
+.divHorario {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+    margin-bottom: 6px;
+}
+
+.iconFlecha {
+    font-size: 17px;
+    margin: 0px 3px;
+    color: #3F51B5;
+}
+
+.divTipoHorario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.divDuracion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    display: block;
+}
+
+select {
+    background: rgb(224, 224, 224);
+    border: none;
+    height: 24px;
+    width: 100px;
+    border-bottom: 2px solid #5764ab;
+}
+
+input {
+    background: rgb(224, 224, 224);
+    border: none;
+    height: 20px;
+    width: 100px;
+    border-bottom: 2px solid #5764ab;
+}

@@ -1,0 +1,83 @@
+.contentPrincipal {
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+h3 {
+    display: contents;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.labelHeader {
+    color: rgba(51, 51, 51, 0.7);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.infoContent {
+    width: 170px;
+}
+
+.nameCountry {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.infoCountry1 {
+    display: block;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ff0000;
+}
+
+.infoCountry2 {
+    display: block;
+    font-weight: 300;
+    font-size: 12px;
+    color: #7e7e7e;
+}
+
+mat-icon{
+    margin: 10px;
+}
+
+.editButon {
+    color: #3F51B5;
+    font-size: 22px;
+}
+
+.deleteButon {
+    color: #F4511E;
+    font-size: 22px;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+    border-top: 1px solid rgb(213, 213, 213);
+}
+
+button {
+    margin: 10px 0;
+    border: none;
+    background: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #3F51B5;
+}
